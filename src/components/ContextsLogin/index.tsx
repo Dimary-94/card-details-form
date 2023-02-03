@@ -7,4 +7,14 @@ export const ContextLogin = createContext<AccountInfoContextType>({
   setUserName: noop,
   cardNumber: undefined,
   setCardNumber: noop,
+  cvvNumber: undefined,
+  setCvvNumber: noop,
+  message: {
+    card: {
+      user: undefined,
+      number: undefined,
+      cvv: undefined,
+    }
+  },
+  setMessage: noop
 });

@@ -1,14 +1,22 @@
 import { FC } from "react";
+import ButtonAction from "../ButtonAction/ButtonAction";
 import { Description } from "../Description";
 import * as S from "./styled";
-import { Props } from "./types";
 
-export const Complete: FC<React.PropsWithChildren<Props>> = ({
-  value,
-}) => {
+export const Complete: FC = () => {
+  const handleSubmit = () => {
+    console.log('test');
+  }
+
   return (
     <S.TextWrapper>
       <Description />
+      <ButtonAction
+        id={'continue'}
+        text={'Continue'}
+        className={'submit-button'}
+        handler={handleSubmit}
+      />
     </S.TextWrapper>
   );
 };

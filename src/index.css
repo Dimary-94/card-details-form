@@ -3,8 +3,8 @@
   font-weight: 200 700;
   font-style: normal;
   font-display: swap;
-  src: url('#/fonts/ReadexPro-VariableFont.woff') format('woff'),
-    url('#/fonts/ReadexPro-VariableFont.woff2') format('woff2');
+  src: url('../public/fonts/ReadexPro-VariableFont.woff') format('woff'),
+    url('../public/fonts/ReadexPro-VariableFont.woff2') format('woff2');
 }
 
 html,
