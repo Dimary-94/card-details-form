@@ -8,6 +8,8 @@ export const ConfirmButton = styled.div`
 `;
 
 export const HeroWrapper = styled.div`
+  display: grid;
+  align-items: center;
   height: 500px;
   width: 500px;
   padding: 40px 50px;
